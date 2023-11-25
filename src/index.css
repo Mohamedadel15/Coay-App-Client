@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== custom css layout tailwind ===== */
+
+@layer components {
+  /* Custom RTL class */
+  .element-center {
+    @apply flex justify-center items-center;
+  }
+
+  /* Custom LTR class */
+  .element-between {
+    @apply flex justify-between items-center;
+  }
+  /* Custom menu class in small screen */
+  .close-Menu {
+    @apply absolute top-[-800px]  left-0 bg-[#b99d75] transition-all duration-200 ease-linear w-full;
+  }
+  .open-Menu {
+    @apply transition-all duration-500 ease-linear  text-[#fff]  py-8 px-4 absolute md:top-[70px] top-[110px]  left-0 w-full min-h-[500px] z-50 bg-[#b99d75];
+  }
+  .text-hover {
+    @apply hover:text-primary_Color hover:dark:text-[#fff] cursor-pointer;
+  }
+  .Transition300 {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .Transition100 {
+    @apply transition-all duration-100 ease-out;
+  }
+  .TopZIndex {
+    @apply z-[100];
+  }
+  .veryTopZIndex {
+    @apply z-[150];
+  }
+  .scaleHover {
+    @apply hover:scale-[1.1] scale-100;
+  }
+  .home_Swiper {
+    @apply px-[0] md:px-[60px]  lg:px-[50px];
+  }
+  .home_Swiper-Slide {
+    @apply h-[450px] md:h-[450px] lg:h-[550px] w-[520px] cursor-pointer;
+  }
+  .book_Style-home {
+    @apply container mx-auto hidden xl:grid xl:grid-cols-5 bg-second_color py-5 mt-[-50px] relative px-3 gap-2 text-[#fff];
+  }
+  .book_Style-Small-home {
+    @apply container mx-auto grid grid-cols-1 bg-second_color py-5 mt-[-50px] relative px-3 gap-2 text-[#fff];
+  }
+  .book_Style-Room {
+    @apply element-center flex-col gap-5 py-9 px-6 dark:bg-BgDark;
+  }
+}
+
+/* ===== custom css elements ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bitter", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header-link li a.active {
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+}
+#stay-dropdown a.active {
+  background-color: inherit !important;
+  color: #b99d75 !important;
+}
+#side-nav_toggle li a.active {
+  color: #b99d75 !important;
+}
+
+html.dark #header-link li a.active {
+  background-color: #53624e;
+  color: #b99d75 !important;
+}
+
+html.dark #side-nav_toggle li a.active {
+  background-color: #b99d75;
+  color: #fff !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 30px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px !important;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  color: #141414 !important;
+  background-color: #b99d75 !important;
+}
+.react-chatbot-kit-chat-inner-container {
+  background-color: #53624e;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #b99d75 !important;
+}
+
+html.dark .rdrMonth{
+  background-color: #53624e !important;
+
+  color: #fff !important;
+}
+html.dark .rdrMonthAndYearWrapper{
+  background-color: rgba(20, 19, 19, 0.395) !important;
+}
+html.dark .rdrDateDisplayWrapper{
+  background-color: black!important;
+  color: #fff !important;
+}
+
+.rdrDefinedRangesWrapper {
+  display: none !important;
+  color: #fff !important;
+}
+html.dark .rdrDayNumber span{
+  color: rgb(210, 225, 0) !important;
+}
+
+.rdrDays {
+  margin: 0 20px !important;
+}
+
+.rdrMonthsHorizontal {
+  @media screen and (max-width: 768px) {
+    flex-direction: column !important;
+  }
+}

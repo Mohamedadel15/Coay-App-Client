@@ -1,0 +1,270 @@
+{
+  "Header1": "Home",
+  "Header2": "Stay",
+  "Header3": "Pages",
+  "Header4": "News",
+  "Header5": "Book Now",
+  "homeHeader": "Boutique Private Island Resort",
+  "homeSubTitle": "The seaside haven of warmth, tranquility and restoration",
+  "headerTel": "Tel :  +2 011 261 177 01",
+  "stayToogle": {
+    "Header1": "Room Page",
+    "Header2": "Cart",
+    "Header3": "Checkout",
+    "Header4": "Reservations"
+  },
+  "PagesTogle": {
+    "Header1": "About the hotel",
+    "Header2": "Resturant & Bar",
+    "Header3": "the resturant",
+    "Header4": "menu pages",
+    "Header5": "spa & wellness",
+    "Header6": "Events & meetings",
+    "Header7": "Local activity",
+    "Header8": "Activity Details Page",
+    "Header9": "Contact us"
+  },
+  "HomeIntro": {
+    "Header1": "WELCOME TO COZYSTAY RESORT",
+    "Header2": "In the Heart of the South Pacific, Outstanding Views",
+    "Header3": "Nestled in the heart of the Pacific Islands resort, on the edge of a tranquil and beautiful Garden Island, CozyStay is a haven of warmth, tranquility and rejuvenation. Bathed in brilliant sunshine and clear skies, it offers stunning views of palm-lined beaches and gorgeous coral reefs.",
+    "Header4": "Inspired by our history, surrounded by nature and designed to offer a different experience"
+  },
+  "DiscoverAll": {
+    "Header1": "ENJOY WORLD-CLASS STAY EXPERIENCE",
+    "Header2": "The Accommodations",
+    "Button": "Discover All Suites"
+  },
+  "Rooms": {
+    "Guest": "Guest",
+    "Beds": "King Bed",
+    "m2": "m2",
+    "Price": "Price",
+    "bathRoom": "Bath Room"
+  },
+  "Experience": {
+    "Header1": "UNFORGETTABLE EXPERIENCE",
+    "Header2": "One of the World's Most Desirable Locations",
+    "Header3": "A superior, 5-star resort embodying the very best of Fiji Islands luxury, tranquility & sophistication.",
+    "Button": "Discover All",
+    "Galary1": {
+      "Header1": "",
+      "title": "."
+    },
+    "Galary2": {
+      "Header1": "",
+      "title": "."
+    },
+    "Galary3": {
+      "Header1": "Gastronomic Dine",
+      "title": ". "
+    }
+  },
+  "Experience2": {
+    "Header1": "VOICE FROM OUR GUESTS",
+    "Header2": "“Everything here was great: the staff, the room layout, the property amenities with indoor pool, and the quality of the food. But the high point is the view from the mountains.”",
+    "Header3": "ANNA WILLIAMS – TRIPADVISOR"
+  },
+  "HomeServices": {
+    "header": "DISCOVER THE SERVICES WE OFFERED",
+    "title": "All the Essentials for a Cozy and Comfortable Stay",
+    "footer": "Inspired by our history, surrounded by nature to offer a different experience",
+    "categories": {
+      "Header1": "Airport Pick-up Service",
+      "Header2": "Housekeeper Services",
+      "Header3": "Wifi & Internet",
+      "Header4": "Laundry Services",
+      "Header5": "Swimming Pool",
+      "Header6": "Breakfast in Bed"
+    }
+  },
+  "footer": {
+    "title1": "STAY TUNED WITH COZYSTAY",
+    "title2": "Sign up for our newsletter to receive our news, deals and special offers",
+    "subscribe": {
+      "holder": "Your Email Address",
+      "button": "Subscribe",
+      "policy": " agree to the Privacy Policy"
+    },
+    "info": {
+      "title1": "ADDRESS",
+      "title2": "PHONE",
+      "title3": "EMAIL",
+      "title4": "SOCIAL",
+      "street": "11 street hawamdia Giza Egypt"
+    }
+  },
+  "Booking": {
+    "Header1": "Check in ",
+    "Header2": "Check out",
+    "Header3": "Guests",
+    "Header4": "Rooms",
+    "Header5": "Children",
+    "Header6": "Adults"
+  },
+  "ChatBot": {
+    "handleHello": {
+      "HelloName": "Hello. Nice to meet you.",
+      "falseHelloName": "Please enter right name for",
+      "message2": "Please enter the number or name of the problem based on these choices",
+      "message3": "1-Booking",
+      "message4": "2-Information",
+      "message5": "3-Contact",
+      "message6": "4-Login or Register"
+    },
+    "afterNameMessage": {
+      "message1": "please enter your number of Rooms",
+      "message2": "please enter the number of ur check that u want to check it",
+      "message3": "u can contact with us by clicking on the pages then contact Us or u can contact us by mail: mibo82239@gmail.com or u can with number +2 01126117701",
+      "UserMail": "How do you want us to contact you? Please enter 'yes' or 'no",
+      "message4": "if u have any problem that u can`t rich for the login page this steps will help you find it to login or register your account u can clicked for menu bar or nav bar buttons and you will find stay page in the nave then will find inside it the login or register page",
+      "message5": "error",
+      "pathPage": "Press To Go to Login or Register Page"
+    },
+    "GuestNumber": {
+      "message": "enter number of Guest"
+    },
+    "childrenNumber": {
+      "message": "enter number of children"
+    },
+    "BookingCheckIn": {
+      "message": "enter Date Check-in"
+    },
+    "BookingCheckOut": {
+      "message": "enter Date Check-out"
+    },
+    "confirmCheckOut": {
+      "message": "Are you sure you want to confirm your check-out?"
+    },
+    "applyOrNotConfirm": {
+      "confirmMessage": "Check-out confirmed",
+      "NotConfirm": "Check-out not confirmed"
+    },
+    "checkInfo": {
+      "message": "the result of the check is adult is 3 rooms is 5 children is 3 payeds for "
+    },
+    "contactWithUser": {
+      "message": "please enter your mail address",
+      "message2": "We hope that we have resolved the issue for your problem"
+    },
+    "userMail": {
+      "message": "We will be sending you a message to your email",
+      "message2": "Please enter a valid email address"
+    }
+  },
+  "stay": {
+    "Header": "Villas . Residences . Suites",
+    "title": "Spend an exceptional holiday in paradise when you stay at CozyStay Pacific Hotel.",
+    "introSection":{
+      "Tittle":"START YOUR COMFORTABLE STAY ",
+      "Header":"Explore our refined accommodation options and find the perfect space for your stay.",
+      "paragraph":"The resort offers a total of 139 suites and villas and a wide range of facilities, services and activities to its guests. In an effort to provide a peaceful and tranquil environment."
+    }
+  },
+  "RoomDetails": {
+    "RoomsHeader": "Room Search Results",
+    "RESERVE": "RESERVE",
+    "From": "From",
+    "night": "night",
+    "ExtraServices": "Extra Services",
+    "Description2":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "RoomClean": {
+      "name": "Room Clean",
+      "desc":"12 $ / Night"
+    },
+    "Massage": {
+      "name": "Massage",
+      "desc":"$30 / Person"
+    },
+    "DaySpa": {
+      "name": "Day Spa",
+      "desc":"$45 / Person"
+    },
+    "errorMessage":{
+      "room":"the Room Number Should be between 1 to above",
+      "Adult":"the Adult Number Should be between 2 to 12 ",
+      "Children":"the Children Number Should be between 0 to 6 ",
+      "TrueMessage":"Check Availability is True" ,
+      "DateMessagefalse":"This Date is not available "
+    },
+    "totalPrice":{
+      "TotalCost":"Total Cost",
+      "TotalBasePrice":"Total Base Price",
+      "ExtraServices":"Extra Services",
+      "BasePriceBreakdown":"Base Price Breakdown",
+      "Total":"Total"
+    
+    },
+    "Family": {
+      "FamilyTitle":"Family-friendly Amenities",
+      "Swimming":"Kids Swimming Pool",
+      "bathRoom":"Extra Beds/Baby Crib",
+      "WishingMachine":"Washing Machine"
+    },
+    "RoomAmenities":{
+      "title":"Room Amenities",
+      "Air":"Air conditioner",
+      "Caplet":"Caplet TV",
+      "Wifi":"Wifi & Internet",
+      "Towels":"Towels",
+      "Slippers":"Slippers",
+      "Hair":"Hair Dryer",
+      "Shampoo":"Shampoo",
+      "Espresso":"Espresso Machine",
+      "SafeBox":"Safe Box",
+      "Drinks":"Welcome Drinks",
+      "petFriendly":"Pet Friendly",
+      "Refrigerator":"In-room Refrigerator"
+    },
+    "suite":{
+      "title":"What’s included in this suite?",
+      "Header1":"Private balcony",
+      "Header2":"140x200 cm Elite bed",
+      "Header3":"Upholstered seat beside the panoramic window",
+      "Header4":"TV-UHD screen for watching mountaineering films",
+      "Header5":"Writing desk with USB ports for documenting your adventures",
+      "Header6":"Room safe for your top mountain photos",
+      "Header7":"Service station with Lavazza coffee machine, kettle and tea",
+      "Header8":"Bathroom with rain shower",
+      "Header9":"Comfortable terry towels and bathrobes"
+    },
+    "NothingFound":{
+      "message1":"Error Search !!!",
+      "message2":"please check your search data and try again"
+    }
+  },
+  "Cart":{
+    "PageHeader":"Cart",
+    "OrderPrice":{
+      "Tittle":"Cart totals",
+      "Subtotal":"Subtotal",
+      "Total":"Total",
+      "Button":"Proceed to checkout"
+    },
+    "OrderDetails":{
+      "Header1":"PRODUCT",
+      "Header2":"PRICE",
+      "Header3":"QUANTITY",
+      "Header4":"SUBTOTAL",
+      "Date":"Date",
+      "Details":"Details"
+    },
+    "Coupon":{
+      "CouponCode":"Coupon Code",
+      "ApplyCoupon":"Apply coupon",
+      "getCoupon":"Get coupon",
+      "CouponApplied":"Coupon applied",
+      "CouponNotApplied":"Please enter success a coupon code.",
+      "CouponCode":"Your coupon code"
+    },
+    "EmptyCart":{
+      "firstMessage":"Your cart is currently empty.",
+      "secondMessage":"Start shopping now."
+    }
+  },
+  "CheckOut":{
+    "PageHeader":"Checkout"
+  }
+}
+
+
