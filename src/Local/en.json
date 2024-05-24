@@ -155,10 +155,10 @@
   "stay": {
     "Header": "Villas . Residences . Suites",
     "title": "Spend an exceptional holiday in paradise when you stay at CozyStay Pacific Hotel.",
-    "introSection":{
-      "Tittle":"START YOUR COMFORTABLE STAY ",
-      "Header":"Explore our refined accommodation options and find the perfect space for your stay.",
-      "paragraph":"The resort offers a total of 139 suites and villas and a wide range of facilities, services and activities to its guests. In an effort to provide a peaceful and tranquil environment."
+    "introSection": {
+      "Tittle": "START YOUR COMFORTABLE STAY ",
+      "Header": "Explore our refined accommodation options and find the perfect space for your stay.",
+      "paragraph": "The resort offers a total of 139 suites and villas and a wide range of facilities, services and activities to its guests. In an effort to provide a peaceful and tranquil environment."
     }
   },
   "RoomDetails": {
@@ -167,104 +167,127 @@
     "From": "From",
     "night": "night",
     "ExtraServices": "Extra Services",
-    "Description2":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "Description2": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "RoomClean": {
       "name": "Room Clean",
-      "desc":"12 $ / Night"
+      "desc": "12 $ / Night"
     },
     "Massage": {
       "name": "Massage",
-      "desc":"$30 / Person"
+      "desc": "$30 / Person"
     },
     "DaySpa": {
       "name": "Day Spa",
-      "desc":"$45 / Person"
+      "desc": "$45 / Person"
     },
-    "errorMessage":{
-      "room":"the Room Number Should be between 1 to above",
-      "Adult":"the Adult Number Should be between 2 to 12 ",
-      "Children":"the Children Number Should be between 0 to 6 ",
-      "TrueMessage":"Check Availability is True" ,
-      "DateMessagefalse":"This Date is not available "
+    "errorMessage": {
+      "room": "the Room Number Should be between 1 to above",
+      "Adult": "the Adult Number Should be between 2 to 12 ",
+      "Children": "the Children Number Should be between 0 to 6 ",
+      "TrueMessage": "Check Availability is True",
+      "DateMessagefalse": "This Date is not available "
     },
-    "totalPrice":{
-      "TotalCost":"Total Cost",
-      "TotalBasePrice":"Total Base Price",
-      "ExtraServices":"Extra Services",
-      "BasePriceBreakdown":"Base Price Breakdown",
-      "Total":"Total"
-    
+    "totalPrice": {
+      "TotalCost": "Total Cost",
+      "TotalBasePrice": "Total Base Price",
+      "ExtraServices": "Extra Services",
+      "BasePriceBreakdown": "Base Price Breakdown",
+      "Total": "Total"
     },
     "Family": {
-      "FamilyTitle":"Family-friendly Amenities",
-      "Swimming":"Kids Swimming Pool",
-      "bathRoom":"Extra Beds/Baby Crib",
-      "WishingMachine":"Washing Machine"
+      "FamilyTitle": "Family-friendly Amenities",
+      "Swimming": "Kids Swimming Pool",
+      "bathRoom": "Extra Beds/Baby Crib",
+      "WishingMachine": "Washing Machine"
     },
-    "RoomAmenities":{
-      "title":"Room Amenities",
-      "Air":"Air conditioner",
-      "Caplet":"Caplet TV",
-      "Wifi":"Wifi & Internet",
-      "Towels":"Towels",
-      "Slippers":"Slippers",
-      "Hair":"Hair Dryer",
-      "Shampoo":"Shampoo",
-      "Espresso":"Espresso Machine",
-      "SafeBox":"Safe Box",
-      "Drinks":"Welcome Drinks",
-      "petFriendly":"Pet Friendly",
-      "Refrigerator":"In-room Refrigerator"
+    "RoomAmenities": {
+      "title": "Room Amenities",
+      "Air": "Air conditioner",
+      "Caplet": "Caplet TV",
+      "Wifi": "Wifi & Internet",
+      "Towels": "Towels",
+      "Slippers": "Slippers",
+      "Hair": "Hair Dryer",
+      "Shampoo": "Shampoo",
+      "Espresso": "Espresso Machine",
+      "SafeBox": "Safe Box",
+      "Drinks": "Welcome Drinks",
+      "petFriendly": "Pet Friendly",
+      "Refrigerator": "In-room Refrigerator"
     },
-    "suite":{
-      "title":"What’s included in this suite?",
-      "Header1":"Private balcony",
-      "Header2":"140x200 cm Elite bed",
-      "Header3":"Upholstered seat beside the panoramic window",
-      "Header4":"TV-UHD screen for watching mountaineering films",
-      "Header5":"Writing desk with USB ports for documenting your adventures",
-      "Header6":"Room safe for your top mountain photos",
-      "Header7":"Service station with Lavazza coffee machine, kettle and tea",
-      "Header8":"Bathroom with rain shower",
-      "Header9":"Comfortable terry towels and bathrobes"
+    "suite": {
+      "title": "What’s included in this suite?",
+      "Header1": "Private balcony",
+      "Header2": "140x200 cm Elite bed",
+      "Header3": "Upholstered seat beside the panoramic window",
+      "Header4": "TV-UHD screen for watching mountaineering films",
+      "Header5": "Writing desk with USB ports for documenting your adventures",
+      "Header6": "Room safe for your top mountain photos",
+      "Header7": "Service station with Lavazza coffee machine, kettle and tea",
+      "Header8": "Bathroom with rain shower",
+      "Header9": "Comfortable terry towels and bathrobes"
     },
-    "NothingFound":{
-      "message1":"Error Search !!!",
-      "message2":"please check your search data and try again"
+    "NothingFound": {
+      "message1": "Error Search !!!",
+      "message2": "please check your search data and try again"
     }
   },
-  "Cart":{
-    "PageHeader":"Cart",
-    "OrderPrice":{
-      "Tittle":"Cart totals",
-      "Subtotal":"Subtotal",
-      "Total":"Total",
-      "Button":"Proceed to checkout"
+  "Cart": {
+    "PageHeader": "Cart",
+    "OrderPrice": {
+      "Tittle": "Cart totals",
+      "Subtotal": "Subtotal",
+      "Total": "Total",
+      "Button": "Proceed to checkout"
     },
-    "OrderDetails":{
-      "Header1":"PRODUCT",
-      "Header2":"PRICE",
-      "Header3":"QUANTITY",
-      "Header4":"SUBTOTAL",
-      "Date":"Date",
-      "Details":"Details"
+    "OrderDetails": {
+      "Header1": "PRODUCT",
+      "Header2": "PRICE",
+      "Header3": "QUANTITY",
+      "Header4": "SUBTOTAL",
+      "Date": "Date",
+      "Details": "Details"
     },
-    "Coupon":{
-      "CouponCode":"Coupon Code",
-      "ApplyCoupon":"Apply coupon",
-      "getCoupon":"Get coupon",
-      "CouponApplied":"Coupon applied",
-      "CouponNotApplied":"Please enter success a coupon code.",
-      "CouponCode":"Your coupon code"
+    "Coupon": {
+      "CouponCode": "Coupon Code",
+      "ApplyCoupon": "Apply coupon",
+      "getCoupon": "Get coupon",
+      "CouponApplied": "Coupon applied",
+      "CouponNotApplied": "Please enter success a coupon code.",
+      "CouponCode": "Your coupon code"
     },
-    "EmptyCart":{
-      "firstMessage":"Your cart is currently empty.",
-      "secondMessage":"Start shopping now."
+    "EmptyCart": {
+      "firstMessage": "Your cart is currently empty.",
+      "secondMessage": "Start shopping now."
     }
   },
-  "CheckOut":{
-    "PageHeader":"Checkout"
+  "CheckOut": {
+    "PageHeader": "Checkout"
+  },
+  "Auth": {
+    "Login": {
+      "Header": "Login",
+      "Email": "Email",
+      "Password": "Password",
+      "Remember": "Remember me",
+      "Forget": "Forget Password",
+      "Button": "Login",
+      "Register": "Don't have an account? Register",
+      "Error": "Invalid Email or Password",
+      "Success": "Login Success",
+      "ErrorEmail": "Please enter a valid email address",
+      "ErrorPassword": "Please enter a valid password",
+      "ErrorEmailRequired" : "Please enter a valid email address"
+    },
+    "Register": {
+      "Header": "Register Now",
+      "Email": "Email",
+      "Password": "Password",
+      "ConfirmPassword": "Confirm Password",
+      "Button": "Register",
+      "Login": "Already have an account? Login",
+      "LastName": "Last Name",
+      "Name": "First Name"
+    }
   }
 }
-
-

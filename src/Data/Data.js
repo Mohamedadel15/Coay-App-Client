@@ -23,6 +23,10 @@ export  function StayToggleData() {
             id: 4,
             Path:"stay/reservations",
             title:t("stayToogle.Header4")
+        },{
+            id: 5,
+            Path:"/login",
+            title:t("Auth.Login.Header")
         }
     ]
   return {Data}

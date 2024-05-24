@@ -21,7 +21,7 @@ export default function RoomsPage() {
     <div>
       <Hero srcImage={"https://res.cloudinary.com/dh2ndj2ey/image/upload/c_crop,g_auto,h_1400,w_2400/xk6vtmexmuwfmiyu8qx0"} header={t("RoomDetails.RoomsHeader")} subtitle="" />
       <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5 items-start'>
-      <BookCalender sectionClass="book_Style-Room" />
+        <BookCalender sectionClass="book_Style-Room" />
         <section className='col-span-2'>
           <Suspense>
             <Await
@@ -47,7 +47,9 @@ export default function RoomsPage() {
               confirmBookingState.children > 6 ||
               confirmBookingState.adult < 2) &&
             (
-          <EmptyCart firstTitle={t("RoomDetails.NothingFound.message1")} secondTitle={t("RoomDetails.NothingFound.message2")}/>
+              <EmptyCart
+                firstTitle={t("RoomDetails.NothingFound.message1")}
+                secondTitle={t("RoomDetails.NothingFound.message2")} />
             )
           }
         </section>

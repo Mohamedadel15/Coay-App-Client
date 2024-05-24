@@ -70,7 +70,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
       case "Register":
       case "4":
         const message4 = createChatBotMessage(`${t("ChatBot.afterNameMessage.message4")}`);
-        const pathPage = createChatBotMessage((<p className="underline cursor-pointer" onClick={() => window.location.href = "/stay/login"}>{t("ChatBot.afterNameMessage.pathPage")}</p>), {
+        const pathPage = createChatBotMessage((<p className="underline cursor-pointer" onClick={() => window.location.href = "/login"}>{t("ChatBot.afterNameMessage.pathPage")}</p>), {
           withAvatar: true,
           delay: 1000,
           widget: 'overview',

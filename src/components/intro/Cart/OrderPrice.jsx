@@ -34,7 +34,7 @@ export default function OrderPrice() {
         dispatch({ type: "ChangeDateAvailable", value: true })
         dispatchCartInfo({type:"ChangeTotalPrice" , value: discountCoupon()})
         await timeout(2000)
-        navigate("/stay/checkOut")
+        localStorage.getItem("token") ? navigate("/stay/checkOut") : navigate("/login")
         dispatch({ type: "ChangeDateAvailable", value: false })
     }
 

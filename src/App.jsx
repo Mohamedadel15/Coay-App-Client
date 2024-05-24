@@ -21,12 +21,15 @@ import RoomsPage from "./pages/RoomsPage";
 import RoomDetails from "./pages/RoomDetails";
 import Cart from "./pages/Cart";
 import CheckOut from "./pages/CheckOut";
+import Login from "./pages/Login";
+import RegisterPage from "./pages/Register";
 
 
 import { loader as getRoomsLoader } from "./components/intro/home/DescoverAll";
 import { loader as getFilterRoomsLoader } from "./pages/RoomsPage";
 import { loader as getRoomDetailLoader } from "./pages/RoomDetails";
 import { loader as getStayRooms } from "./components/intro/stay/AllRooms";
+
 
 
 
@@ -64,12 +67,12 @@ const router = createBrowserRouter([
             loader: getFilterRoomsLoader,
           },
           {
-            path:"Cart",
-            element:<Cart/>
+            path: "Cart",
+            element: <Cart />
           },
           {
-            path:"CheckOut",
-            element:<CheckOut/>
+            path: "CheckOut",
+            element: <CheckOut />
           }
         ]
 
@@ -82,9 +85,17 @@ const router = createBrowserRouter([
         path: "rooms/:id",
         element: <RoomDetails />,
         loader: getRoomDetailLoader
+      },
+      {
+        path: "login",
+        element: <Login />
+      }, {
+        path: "register",
+        element: <RegisterPage />
       }
     ]
-  }
+  },
+
 ]);
 
 export default function App() {

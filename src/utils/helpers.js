@@ -1,5 +1,51 @@
 
 import { addDays } from 'date-fns';
+import {toast} from "react-toastify";
+
+
+// --------- Constant Toasty Components ------------
+export const notifyData = (header, type) => {
+  switch (type) {
+      case "error":
+          toast.error(header, {
+              position: "top-right",
+              autoClose: 2000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "colored",
+          });
+          break;
+      case "success":
+          toast.success(header, {
+              position: "top-right",
+              autoClose: 2000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+          });
+          break;
+      case "warn":
+          toast.warn(header, {
+              position: "top-right",
+              autoClose: 2000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "colored",
+          });
+          break;
+      default:
+          break;
+  }
+};
+
 
 
 export const initialStateBooking = {
@@ -119,7 +165,6 @@ export function cartInfoReducer(state, action) {
       return state
   }
 }
-
 
 export function formatterDate(startDate, endDate, lang) {
   const options = { day: 'numeric', month: 'numeric', year: 'numeric' };

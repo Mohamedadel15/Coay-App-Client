@@ -18,7 +18,6 @@ export default function Cart() {
                     <CartOrderDetails />
                 </main>
                 <OrderPrice />
-
             </section>
 
         </div>

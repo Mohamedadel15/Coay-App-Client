@@ -71,7 +71,6 @@ export default function BookCalender({ sectionClass }) {
         <Calender />
       </main>
       <main
-
         className='dark:text-primary_Color flex  w-full  p-3 px-[10px] cursor-pointer  outline-none bg-inherit border-[1px]  border-primary_Color hover:text-hover Transition300'>
         <p onClick={() => setShowCalender(!showCalender)} className='px-5 flex-1' >{t("Booking.Header2")}</p>
         <p onClick={() => setShowCalender(!showCalender)} className='px-5'>{formattedDateEnd}</p>
